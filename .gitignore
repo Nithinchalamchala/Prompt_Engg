@@ -1,0 +1,58 @@
+# ── Secrets — never commit these ──────────────────────────────────────────────
+.env
+*.key
+*.pem
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+.conda/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── LaTeX build artefacts ─────────────────────────────────────────────────────
+presentation/*.aux
+presentation/*.log
+presentation/*.out
+presentation/*.toc
+presentation/*.nav
+presentation/*.snm
+presentation/*.vrb
+presentation/*.synctex.gz
+presentation/*.fls
+presentation/*.fdb_latexmk
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Misc ─────────────────────────────────────────────────────────────────────
+*.log
+*.tmp
